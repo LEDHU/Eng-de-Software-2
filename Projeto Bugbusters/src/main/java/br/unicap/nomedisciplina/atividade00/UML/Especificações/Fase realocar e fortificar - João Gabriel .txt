@@ -1,0 +1,40 @@
+﻿Descrição Resumida:
+
+Neste caso de uso, "Realocar/Fortificar Tropas", o Atacante, após concluir a fase de ataque, tem a opção de fortificar suas posições realocando tropas entre territórios que controla. O Atacante escolhe um território de origem, um território de destino e a quantidade de tropas para realocar. Ao final deste caso de uso, todas as regras do jogo sejam respeitadas, e o estado do jogo seja atualizado corretamente, refletindo as realocações/fortificações de tropas feitas pelo Atacante.
+
+Ator Principal: Atacante
+Atores Secundários: Jogador
+Pré-Condições:
+• O atacante deve ter completado a fase de ataque.
+• Deve existir ao menos um território com duas ou mais tropas.
+Pós-Condições:
+• As tropas são realocadas conforme as escolhas do Atacante.
+• Passa-se a rodada ao próximo jogador.
+
+Fluxo Principal:
+1. O Atacante seleciona a opção para entrar na fase de Realocar/Fortificar.
+2. O sistema apresenta os territórios que o Atacante pode realocar/fortificar tropas.
+3. O Atacante seleciona o território de origem e o território de destino para realocar/fortificar tropas.
+4. O Atacante determina a quantidade de tropas a ser realocada/fortificada.
+5. O sistema valida a quantidade de tropas selecionada e realiza a realocação/fortificação das tropas.
+6. O sistema atualiza o estado do jogo com as novas posições das tropas.
+7. O sistema avança para a vez do próximo jogador.
+
+Fluxos Alternativos:
+• Quantidade de Tropas Inválida:
+1. O Atacante tenta alocadas novamente uma quantidade inválida de tropas.
+2. O sistema informa ao Atacante que a quantidade de tropas é inválida.
+3. O Atacante insere uma nova quantidade de tropas válida.
+• Seleção de Territórios Inválida:
+1. O Atacante seleciona um território de origem ou destino inválido.
+2. O sistema informa ao Atacante sobre a seleção inválida de territórios.
+3. O Atacante seleciona novos territórios válidos.
+Fluxo de Exceção:
+• Cancelamento de Realocação:
+1. O Atacante decide não realocar/fortificar tropas.
+2. O Atacante seleciona a opção para cancelar a realocação/fortificação de tropas.
+3. O sistema cancela o processo de realocação/fortificação de tropas e mantém o estado atual do jogo.
+4. O sistema avança para a vez do próximo jogador.
+Requisitos Especiais:
+• O sistema deve validar as seleções de territórios e quantidade de tropas de acordo com as regras do jogo.
+• O sistema deve garantir que as realocações/fortificações de tropas sejam refletidas corretamente no estado do jogo.

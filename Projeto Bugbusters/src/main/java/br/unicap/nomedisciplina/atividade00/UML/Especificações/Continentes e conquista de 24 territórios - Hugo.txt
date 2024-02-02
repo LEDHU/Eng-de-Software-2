@@ -1,0 +1,41 @@
+﻿Descrição: 
+Objetivo: O objetivo deste caso de uso é descrever o processo pelo qual um jogador conquista 24 territórios e continentes no jogo WAR, alcançando assim a vitória.
+
+Ator Principal: Jogador de WAR
+
+
+Pré-condições:
+
+
+O jogo WAR está em andamento.
+O jogador está participando do jogo e possui territórios sob seu controle.
+Fluxo Básico:
+
+
+O jogador inicia sua vez no jogo WAR.
+O jogador realiza as seguintes ações, repetindo-as conforme necessário, até alcançar 24 territórios e continentes:
+
+1. Conquistar Territórios:
+O jogador escolhe um território controlado por um adversário ou território neutro adjacente a um de seus territórios.
+O jogador realiza uma série de ataques para tentar conquistar o território desejado.
+Se o jogador conseguir conquistar o território, ele o adiciona aos territórios sob seu controle.
+2. Controlar Continentes:
+O jogador visa conquistar continentes completos, que consistem em vários territórios dentro de uma região geográfica específica.
+Ao conquistar todos os territórios de um continente, o jogador passa a controlá-lo.
+3. Alocar Exércitos:
+Após conquistar territórios, o jogador recebe exércitos adicionais no início de seu turno, com base na quantidade de territórios controlados e continentes conquistados.
+O jogador pode alocar esses exércitos adicionais para fortalecer seus territórios ou continuar expandindo seu domínio.
+O jogador continua a executar essas ações até alcançar a conquista de 24 territórios e continentes.
+
+Pós-condições:
+
+
+O jogador alcança a vitória no jogo WAR ao conquistar 24 territórios e continentes.
+O jogo pode ser encerrado, ou os jogadores podem optar por continuar jogando por diversão.
+Fluxos Alternativos e Exceções:
+
+
+Durante o processo de conquista, o jogador pode enfrentar resistência de outros jogadores que tentarão impedir sua conquista, tornando os ataques mais desafiadores.
+O jogador pode ter que tomar decisões estratégicas sobre quais territórios e continentes conquistar primeiro, com base na disponibilidade de recursos e na situação do jogo.
+Outros jogadores podem tentar interromper a conquista do jogador por meio de alianças ou táticas de bloqueio.
+O jogo pode ter regras específicas sobre como os continentes são conquistados e quantos exércitos adicionais o jogador recebe com base em sua conquista de territórios e continentes.

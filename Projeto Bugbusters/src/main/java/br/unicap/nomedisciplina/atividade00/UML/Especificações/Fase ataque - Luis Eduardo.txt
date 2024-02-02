@@ -1,0 +1,19 @@
+﻿Descrição: Essa fase é a parte em qual um jogador escolhe um território que possui para atacar um território inimigo.
+
+
+Fluxo Básico:
+1. O jogador escolhe um território de origem que contenha exércitos suficientes para realizar o ataque.
+2. O jogador seleciona um território inimigo adjacente como alvo do ataque.
+3. O jogador atacante rola um número de dados de ataque igual ao número de exércitos no território de origem menos 1 (dados = Qtd_soldados - 1 <= 3).
+4. O jogador defensor rola um número de dados de defesa igual ao número de exércitos no território alvo (dados = Qtd_soldados <= 3).
+5. O programa determina pelos dados quantos soldados e as perdas de cada territórios.
+6. Se o jogador atacante conquistar o território alvo, ele decide quantos exércitos moverá para novo território.
+
+
+Fluxo Alternativo:
+- Se o jogador escolher um território seu sem exércitos suficientes para realizar o ataque, o programa vai dar erro.
+- Se o jogador atacante não tiver mais exercício suficiente para atacar, o programa encerrará a fase do ataque.
+
+
+Regras de Exceção:
+- O ataque só iniciará com a escolha de um território de 'origem' e um 'destino' sendo adjacentes.

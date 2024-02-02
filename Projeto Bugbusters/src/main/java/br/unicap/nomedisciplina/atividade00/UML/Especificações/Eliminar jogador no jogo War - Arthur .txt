@@ -1,0 +1,33 @@
+﻿Descrição: O processo de eliminação tem por objetivo entregar a vitória ao jogador que derrotar diretamente o último território restante de um adversário específico. 
+
+
+
+
+Ator principal : Jogador com este objetivo e adversário alvo. 
+
+
+ 
+Partes alternativas e atores secundários 
+Os outros jogadores presentes no jogo, por consequência de suas jogadas, podem eliminar por completo o adversário específico do objetivo. Assim, levando a uma condição de exceção ao caso de uso. É o próprio sistema do jogo, que fará as disposições dos países e determina a cor e o objetivo de cada jogador. 
+
+
+
+
+Pré-condições 
+Para possível execução completa, é necessário que o sistema seja inicializado dispondo de todos os territórios iniciais para cada jogador, que seja determinado que um jogador tenha a meta de eliminar um oponente alvo, que a cor que represente este oponente seja um dos jogadores presentes. Com isso à disposição, o jogador deverá fazer o ataque final ao adversário. 
+
+
+
+
+Fluxo principal do round
+O jogador atacante decide atacar o jogador alvo tendo a possibilidade de conquistar o território alvo. Assim, o jogador determina a quantidade de tropas que serão usadas para atacar o país na fronteira. Após a verificação do sistema sobre as condições de jogadas, o round de ataque é iniciado com o lançamento de dados que varia de 1 até 3, baseados na quantidade de tropas tanto do atacante quanto do oponente. Se os resultados dos dados forem mais favoráveis para o atacante, é concedido a vitória a este jogador. Dessa forma, é necessário repetir este processo até que o adversário alvo não apresente mais nenhum país, dando vitória final ao jogador atacante por conclusão do objetivo. 
+
+
+
+
+Fluxo alternativo do round: São os principais resultados que vão contra o fluxo principal do round. O que leva ao jogador atacante não conseguir conquistar o país alvo, sendo por invalidação do sistema, como informar uma quantidade de tropas além da contida nas fronteiras do atacante, ou pelos resultados dos dados serem mais favoráveis ao oponente. Assim, ocasionando a condição de derrota por round ao jogador atacante, e aumentando a dificuldade da vitória por objetivo. 
+
+
+
+
+Requisitos Não Funcionais: São os casos de exceções que levam a não possibilidade de execução dos fluxos principais ou alternativos do round. Sendo por meio de um jogador secundário que pode eliminar por completo o adversário referente ao objetivo, pelo sistema que determina que a cor que representa este oponente não está presente em nenhum na mesa de jogadores ou é a mesma cor do jogador atacante. Tendo uma destas exceções, ocorre-se uma reformulação na meta do player que apresenta esta especificação.

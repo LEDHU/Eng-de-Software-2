@@ -1,0 +1,37 @@
+﻿Descrição: 
+
+
+Refere-se ao processo de adicionar exército em um território recém-conquistado após uma vitória na batalha, durante a fase de ataque, com objetivo de expandir os domínios e garantir sua defesa.
+
+
+Pré-condições: 
+
+
+É a vez do jogador atacar.
+O jogador deve ter ganho o combate contra um território dominado por outro jogador.
+Deve ter eliminado todas as tropas do outro jogador do território.
+
+
+Fluxo Básico:
+
+
+O sistema verifica se a batalha foi bem sucedida (eliminou todos os exércitos adversários).
+Se sim, o sistema pergunta quantos exércitos o jogador quer povoar o território conquistado, 1, 2 ou 3 .
+Repete os passos 1 e 2 sempre que houver uma batalha.
+
+
+Pós-condições: 
+
+
+O território conquistado é povoado por um exército.
+O sistema autoriza a próxima batalha/fim da fase de batalha.
+
+
+Fluxo alternativo: 
+
+
+Se o jogador informar um número menor que 1 ou maior que 3 soldados para povoar, o sistema exibe mensagem de erro e o jogador deve tentar novamente.
+
+
+Regras de exceção: 
+Se a batalha não for bem sucedida, o sistema não realiza ação e permite que a próxima batalha comece.

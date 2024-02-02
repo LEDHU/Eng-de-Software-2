@@ -1,0 +1,49 @@
+﻿Resumo: Este caso de uso descreve as etapas envolvidas na inicialização de uma partida do jogo War, incluindo a configuração do tabuleiro, a distribuição de territórios e exércitos, e a determinação da ordem de jogo.
+
+
+Pré-condições:
+
+
+O jogo War está configurado e pronto para ser iniciado.
+Os jogadores estão presentes e identificados.
+Pós-condições:
+
+
+O tabuleiro de jogo está configurado.
+Os territórios estão distribuídos entre os jogadores.
+Os exércitos iniciais estão posicionados nos territórios.
+
+Fluxo Básico:
+
+
+O jogador que será o primeiro a iniciar o jogo é determinado por algum critério (por exemplo, sorteio, jogador mais jovem, etc.).
+
+
+O tabuleiro de jogo é preparado e colocado no centro da mesa.
+
+
+As cartas de território são embaralhadas e colocadas viradas para baixo em um monte.
+
+
+Cada jogador recebe um número de exércitos iniciais de acordo com o número de jogadores (por exemplo, em um jogo de 3 jogadores, cada jogador recebe 35 exércitos).
+
+
+As cartas de missão são embaralhadas e cada jogador recebe uma carta de missão secreta, que descreve seu objetivo específico no jogo.
+
+
+Os territórios são distribuídos entre os jogadores. Isso pode ser feito de diversas maneiras, como por um sorteio inicial ou em ordem alternada.
+
+
+Os jogadores posicionam seus exércitos iniciais nos territórios que receberam. Cada jogador coloca um exército por vez, em turnos, até que todos os exércitos iniciais estejam posicionados.
+
+
+O jogador que foi determinado como o primeiro inicia a primeira rodada do jogo.
+
+
+Fluxo Alternativo:
+
+
+1. Configuração Personalizada: Se os jogadores desejarem, eles podem optar por realizar uma configuração personalizada do tabuleiro e da distribuição dos territórios, em vez de seguir as regras padrão.
+2. Troca de Territórios: Alguns jogos War permitem que os jogadores façam trocas de territórios após a distribuição inicial. Se essa regra estiver em vigor, os jogadores podem negociar a troca de territórios entre si antes de posicionar seus exércitos iniciais.
+3. Cartas de Bônus de Exército: Alguns jogos War incluem cartas de bônus de exército que os jogadores podem receber após a distribuição inicial. Se essa regra estiver em vigor, os jogadores recebem essas cartas e podem usá-las estrategicamente durante o jogo.
+4. Determinação da Ordem de Jogo Alternativa: Em alguns casos, a ordem de jogo pode ser determinada de maneira diferente, como por sorteio separado ou com base em algum critério específico escolhido pelos jogadores.
