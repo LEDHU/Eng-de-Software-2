@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.unicap.eng2.sincrona2.TestVotingUnit" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-11-23T14:00:11" hostname="SAMSUNG-EDU" time="0.062">
+  <properties/>
+  <testcase name="testGetVotes()" classname="br.unicap.eng2.sincrona2.TestVotingUnit" time="0.022"/>
+  <testcase name="[1] 0" classname="br.unicap.eng2.sincrona2.TestVotingUnit" time="0.012"/>
+  <testcase name="[2] 10" classname="br.unicap.eng2.sincrona2.TestVotingUnit" time="0.001"/>
+  <testcase name="[3] 20" classname="br.unicap.eng2.sincrona2.TestVotingUnit" time="0.0"/>
+  <testcase name="[4] 30" classname="br.unicap.eng2.sincrona2.TestVotingUnit" time="0.001"/>
+  <testcase name="testGetVotesCandidateA()" classname="br.unicap.eng2.sincrona2.TestVotingUnit" time="0.001"/>
+  <testcase name="testGetVotesCandidateB()" classname="br.unicap.eng2.sincrona2.TestVotingUnit" time="0.0"/>
+  <testcase name="testGetVotesProportingCandidateA()" classname="br.unicap.eng2.sincrona2.TestVotingUnit" time="0.002"/>
+  <testcase name="testGetVotesProportingCandidateB()" classname="br.unicap.eng2.sincrona2.TestVotingUnit" time="0.001"/>
+  <testcase name="testGetVotesProportion()" classname="br.unicap.eng2.sincrona2.TestVotingUnit" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
